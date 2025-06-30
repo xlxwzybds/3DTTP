@@ -708,8 +708,8 @@ def gdp_power(A, core_map, temp_max, temp_amb, P_s, P_k, T_c, gdp_mode):
         err_init = err + err_init
 
     err_init = err_init/length
-    execution_time = execution_time + execution_time1
-    print('err :',err_init)
+    execution_time =  execution_time1
+    #print('err :',err_init)
     print(f"core execution time: {execution_time:.5f} ")
         
 
