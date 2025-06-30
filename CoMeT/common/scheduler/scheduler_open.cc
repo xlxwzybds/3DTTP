@@ -1060,8 +1060,8 @@ void SchedulerOpen::executeDramPolicy()
 
 void SchedulerOpen::setMemBankMode(int bankNr, int mode)
 {
-	Sim()->m_bank_modes[bankNr] = mode;
-	//Sim()->m_bank_modes[bankNr] = 1;
+	//Sim()->m_bank_modes[bankNr] = mode;
+	Sim()->m_bank_modes[bankNr] = 1;
 }
 
 /** executeMigrationPolicy
